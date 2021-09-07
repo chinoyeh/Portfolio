@@ -24,17 +24,17 @@ export const Projects =[
     {
         id:1,
         title: 'LOREM',
-        image : {Lorem},
+        image: 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/3/21/1395401774125/Lorem-ipsum-011.jpg?width=300&quality=85&auto=format&fit=max&s=f3c6804d2cec727b37184b8e86589cd1',
         description: 'Lorem Ispum generator that can generate up to 8 paragraphs of lorem',
-        link :'#'
+        link :'https://chinoye-lorem.netlify.app'
 
     },
     {
         id:2,
         title: 'TODO',
-        image : {Todo},
+        image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fLLBdoru49Box9CSjJbVqFRaPj4I0Rsd1Ehu3ufN9VrjzeeeWaVNGLJRu5jH2hwwl9Q&usqp=CAU',
         description: 'Simple todo list  with the option of adding and deleting items',
-        link :'#'
+        link :'https://chinoyeh-todo-list.netlify.app'
 
     }
 ]

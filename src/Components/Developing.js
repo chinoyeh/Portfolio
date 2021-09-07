@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import {Projects} from './Data'
-import Todo from './images/Todo.JPG'
+
 
 const Developing = () => {
     return (
@@ -14,7 +14,7 @@ const Developing = () => {
                   <h1>{title}</h1>
                   <hr/>
                   <div className ="projects-card"> 
-                  <img alt ="Project view" src ={Todo}/>
+                  <img alt ="Project view" src ={image}/>
                   <div className = "projects-description">
                       <p>{description}</p>
                       <p><a href ={link}> Check it out</a></p>
