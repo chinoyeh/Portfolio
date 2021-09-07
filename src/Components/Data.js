@@ -1,7 +1,3 @@
-import Lorem from './images/Lorem.JPG'
-import Todo from './images/Todo.JPG'
-
-
 export const PoetryData =[
     {
         id: 1,
