@@ -16,7 +16,7 @@ const Poetry = () => {
                         <h1>{title}</h1>
                         <div className ="poetry-content">
                   
-                             <img alt ="image" src = {image}/>
+                         <img alt ="face" src = {image}/>
                       
                         <p><em>{content}</em></p>
   
