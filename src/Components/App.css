@@ -202,15 +202,16 @@ p {
   margin-left: 50px;
 }
 .poetry-content img {
-  width: 80%;
+  width: 60%;
   margin-top: 40px;
-  height: 50%;
+  height: 60%;
+  margin-left: 50px;
 }
 .poetry-content p {
-  width: 100%;
+  width: 70%;
   letter-spacing: 1px;
-
-  margin-left: -30px;
+  margin-top: -56px;
+  margin-left: 30px;
 }
 /* Developing Styling */
 .developing {
