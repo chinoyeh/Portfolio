@@ -11,11 +11,17 @@ const Poetry = () => {
             <Navbar/>
             <div className ='poem-card'>
             {PoetryData.map((poetry)=>{
-                    const {id, title, content} = poetry
+                    const {id, title,image, content} = poetry
                     return<artile className='poem' key ={id}>
                         <h1>{title}</h1>
+                        <div className ="poetry-content">
+                  
+                             <img alt ="image" src = {image}/>
+                      
                         <p><em>{content}</em></p>
-                          </artile>
+  
+                        </div>
+                         </artile>
                 })
                 }
             </div>
