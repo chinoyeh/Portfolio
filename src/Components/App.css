@@ -262,10 +262,11 @@ a:visited {
   height: 30px;
   padding: 10px;
   border-style: none;
+  border-bottom : 4px solid green;
   margin: 20px 0 20px 0;
   outline: none;
   box-shadow: 2px 2px 2px 2px #888888; 
-} 
+
 }
 
 .text-area {
